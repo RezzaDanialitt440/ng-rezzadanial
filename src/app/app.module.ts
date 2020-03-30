@@ -10,13 +10,15 @@ import {MatCardModule} from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SectionHomeComponent } from './main-card/section-home/section-home.component';
+import { SectionFooterComponent } from './main-card/section-footer/section-footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    SectionHomeComponent
+    SectionHomeComponent,
+    SectionFooterComponent
   ],
   imports: [
     BrowserModule,
