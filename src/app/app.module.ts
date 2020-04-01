@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SectionHomeComponent } from './main-card/section-home/section-home.component';
 import { SectionFooterComponent } from './main-card/section-footer/section-footer.component';
+import { SectionBioComponent } from './main-card/section-bio/section-bio.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SectionFooterComponent } from './main-card/section-footer/section-foote
     AppComponent,
     CardComponent,
     SectionHomeComponent,
-    SectionFooterComponent
+    SectionFooterComponent,
+    SectionBioComponent
   ],
   imports: [
     BrowserModule,

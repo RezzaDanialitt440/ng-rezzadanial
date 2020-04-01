@@ -1,24 +1,14 @@
-<div class="main-card" fxFlexFill>
-            <div class="dp-section">
-                    <div class="dp-header"></div>
-                    <div class="dp-body">
-                            <img src="../../assets/img/smallDp.PNG" alt="dp">
-                    </div>
-                    <div class="dp-footer"></div>
+<div class="main-card" fxFlexFill fxLayout="row" fxLayout.xs="column">
+            <div class="dp-section" fxFlex= 35%>
             </div>
-            <div class="detail-section">
-                <div class="d-hd"></div>
-                <div class="d-padding"></div>
-                <div class="d-body">
-                    <mat-tab-group mat-stretch-tabs>
-                        <mat-tab label="Home"> <app-section-home></app-section-home> </mat-tab>
-                        <mat-tab label="Bio"> Content 2 </mat-tab>
-                        <mat-tab label="Experience"> Content 3 </mat-tab>
-                        <mat-tab label="Portfolio"> Content 2 </mat-tab>
-                        <mat-tab label="Reach"> Content 3 </mat-tab>
+            <div class="detail-section" fxFlex=65% fxLayout="column" gdAlignColumns="space-between stretch">
+                <div fxFlex=90% class="d-body">
+                    <mat-tab-group mat-stretch-tabs fxLayout="column" gdAlignColumns="space-between stretch">
+                        <mat-tab fxFlex=100% label="Profile"> <app-section-home></app-section-home> </mat-tab>
+                        <mat-tab fxFlex=100% label="Experience"> Content 3 </mat-tab>
+                        <mat-tab fxFlex=100% label="Reach"> Content 3 </mat-tab>
                       </mat-tab-group>
                 </div>
-                <div class="d-ft"> <app-section-footer></app-section-footer> </div>
-
+                <div fxFlex=10%> <app-section-footer></app-section-footer> </div>
             </div>
 </div>

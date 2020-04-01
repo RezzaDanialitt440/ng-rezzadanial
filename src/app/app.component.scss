@@ -31,14 +31,14 @@
   grid-area: ft;
 }
 
-
-    @media(max-width: 414px){
+  //for large mobile
+    @media(max-width: 425px){
       .container {
         height: 100%;
         background-color: #3F51B5;
         display: grid;
         grid-template-columns: 0% 100% 0%;
-        grid-template-rows: 5% 90% 5%;
+        grid-template-rows: 0% 100% 0%;
         grid-template-areas: "hd"
                              "pl body pr"
                              "ft";
