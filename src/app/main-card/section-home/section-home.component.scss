@@ -4,7 +4,7 @@
 }
 
 .main-title{
-    background-color: #707070;
+    background-color: #3F51B5;
     padding: 1% 2%;
     font-weight: 500;
     text-transform: uppercase;
@@ -12,9 +12,49 @@
     font-size: 2vw;
 }
 
+.bio-container{
+    margin-top: 15px;
+}
+
+.bio-title{
+    background-color: #3F51B5;
+    padding: 1% 2%;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.bio-item{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.bio-group{
+    margin-top: 25px
+}
+
+mark {
+    background-color: #3F51B5;
+}
+
+h1{
+    display: block;
+    font-size: 5vw;
+    margin-top: 0.40em;
+    margin-bottom: 0.40em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.icn {
+    margin-right: 10px;
+}
+
 
 .name-text{
-    font-size: 5vw;
+    font-size: 4vw;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -34,6 +74,12 @@
     word-spacing: 5px;
 }
 
+.example-viewport {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  }
+
 // @media(max-width: 1366px){
 //     .intro-text {
 //         font-size:10vw
@@ -43,11 +89,11 @@
 //     }
 // }
 
-@media(max-width: 425px){
-    .name-text{
-        font-size: 10vw;
-        text-transform: uppercase;
-        font-weight: 900;
+@media screen and (max-width: 599px){
+    h1{
+        font-size: 9vw;
+        margin-top: 0.40em;
+        margin-bottom: 0.40em;
     }
 
     .main-title{
@@ -57,5 +103,12 @@
     .intro-text,
     .link-text{
         font-size: 4vw;
+    }
+
+    .bio-item{
+        margin-bottom: 35px;
+    }
+    .bio-group{
+        margin-top: 15px
     }
 }
