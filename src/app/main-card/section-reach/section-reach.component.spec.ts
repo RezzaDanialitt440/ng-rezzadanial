@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SectionBioComponent } from './section-bio.component';
+import { SectionReachComponent } from './section-reach.component';
 
-describe('SectionBioComponent', () => {
-  let component: SectionBioComponent;
-  let fixture: ComponentFixture<SectionBioComponent>;
+describe('SectionReachComponent', () => {
+  let component: SectionReachComponent;
+  let fixture: ComponentFixture<SectionReachComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SectionBioComponent ]
+      declarations: [ SectionReachComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SectionBioComponent);
+    fixture = TestBed.createComponent(SectionReachComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

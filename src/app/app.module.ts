@@ -11,7 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SectionHomeComponent } from './main-card/section-home/section-home.component';
 import { SectionFooterComponent } from './main-card/section-footer/section-footer.component';
-import { SectionBioComponent } from './main-card/section-bio/section-bio.component';
+import { SectionReachComponent } from './main-card/section-reach/section-reach.component';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import { SectionBioComponent } from './main-card/section-bio/section-bio.compone
     CardComponent,
     SectionHomeComponent,
     SectionFooterComponent,
-    SectionBioComponent
+    SectionReachComponent,
   ],
   imports: [
     BrowserModule,
