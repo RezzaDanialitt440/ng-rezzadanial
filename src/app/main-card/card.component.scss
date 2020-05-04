@@ -1,0 +1,44 @@
+.main-card {
+    box-shadow: 3px 9px 61px;
+}
+
+.dp-section{
+    background-color: #fff;
+    background-image: url(../../assets/img/dpDesktop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center center;
+    object-fit: cover;
+ }
+
+
+.dp-body{
+    background-color: #3F51B5;
+}
+
+.detail-section{
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    box-shadow: 1px 3px 10px;
+  }
+  
+@media screen and (max-width: 599px){
+    .main-card {
+        box-shadow: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
