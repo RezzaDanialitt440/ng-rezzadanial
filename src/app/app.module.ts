@@ -9,9 +9,12 @@ import { CardComponent } from './main-card/card.component';
 import {MatCardModule} from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { SectionHomeComponent } from './main-card/section-home/section-home.component';
 import { SectionFooterComponent } from './main-card/section-footer/section-footer.component';
 import { SectionReachComponent } from './main-card/section-reach/section-reach.component';
+import { SectionExperienceComponent } from './main-card/section-experience/section-experience.component';
+
 
 
 @NgModule({
@@ -21,6 +24,7 @@ import { SectionReachComponent } from './main-card/section-reach/section-reach.c
     SectionHomeComponent,
     SectionFooterComponent,
     SectionReachComponent,
+    SectionExperienceComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import { SectionReachComponent } from './main-card/section-reach/section-reach.c
     FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    MatExpansionModule
     
   ],
   providers: [],

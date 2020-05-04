@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.company-title{
+    font-size: 2vw;;
+}
+
+.position-title{
+    padding-left: 25px;
+    font-weight: 550;
+}
+
+.period{
+    padding-left: 25px;
+    font-style: italic;
+}
+
+.job-desc{
+    padding: 10px 20px;
+}
+
+.desc-list{
+    font-size: inherit;
+}
+
+.tech-text{
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.25vw;
+  }
+
+.tech-logo{
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 599px){
+    h3 {
+        font-size: 4vw;
+      }
+    
+}
