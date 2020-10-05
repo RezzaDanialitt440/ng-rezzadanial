@@ -1,0 +1,74 @@
+.home-container{
+    padding: 50px;
+    height: 100%;
+}
+
+.contact-container{
+    margin-top: 20px;
+}
+
+.contact-title{
+    background-color: #3F51B5;
+    padding: 1% 2%;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.icn{
+   max-height: 80px;
+}
+
+.skill-group{
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.skill-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 547px;
+}
+
+.skill-item{
+display: flex;
+flex-direction: column;
+padding: 8px;
+}
+
+.skill-row a{
+    text-decoration: none;
+}
+
+.skill-item span{
+color:  #3F51B5;
+text-decoration: none;
+font-size: 15px;
+font-weight: 450;
+text-align: center;
+margin-top: 10px;
+    }
+
+@media screen and (max-width: 599px){
+
+    .icn{
+        max-height: 50px;
+    }
+
+    // .skill-row{
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+}

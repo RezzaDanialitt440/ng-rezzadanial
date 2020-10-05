@@ -10,10 +10,12 @@ import {MatCardModule} from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTooltipModule} from '@angular/material/tooltip';
 import { SectionHomeComponent } from './main-card/section-home/section-home.component';
 import { SectionFooterComponent } from './main-card/section-footer/section-footer.component';
 import { SectionReachComponent } from './main-card/section-reach/section-reach.component';
 import { SectionExperienceComponent } from './main-card/section-experience/section-experience.component';
+import { SectionSkillsetsComponent } from './main-card/section-skillsets/section-skillsets.component';
 
 
 
@@ -25,6 +27,7 @@ import { SectionExperienceComponent } from './main-card/section-experience/secti
     SectionFooterComponent,
     SectionReachComponent,
     SectionExperienceComponent,
+    SectionSkillsetsComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { SectionExperienceComponent } from './main-card/section-experience/secti
     MatButtonModule,
     MatCardModule,
     MatTabsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTooltipModule
     
   ],
   providers: [],
