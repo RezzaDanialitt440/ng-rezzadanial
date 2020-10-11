@@ -23,7 +23,12 @@
 
 .icn{
    max-height: 80px;
+   max-width: 80px;
 }
+
+.icn-npm{
+    max-width: 125px;
+ }
 
 .skill-group{
     display: flex; 
@@ -37,13 +42,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 547px;
+    max-width: 610px;
 }
 
 .skill-item{
 display: flex;
 flex-direction: column;
 padding: 8px;
+align-items: center;
 }
 
 .skill-row a{
@@ -51,7 +57,7 @@ padding: 8px;
 }
 
 .skill-item span{
-color:  #3F51B5;
+color:  #999999;
 text-decoration: none;
 font-size: 15px;
 font-weight: 450;
@@ -63,7 +69,12 @@ margin-top: 10px;
 
     .icn{
         max-height: 50px;
+        max-width: 50px;
     }
+
+    .icn-npm{
+        max-width: 100px;
+     }
 
     // .skill-row{
     //     display: flex;
