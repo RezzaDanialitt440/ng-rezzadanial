@@ -1,0 +1,19 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+  - url: /
+    static_files: dist/ng-rezzadanial/index.html
+    upload: dist/ng-rezzadanial/index.html
+  - url: /
+    static_dir: dist/ng-rezzadanial
+skip_files:
+  - e2e/
+  - node_modules/
+  - src/
+  - coverage
+  - ^(.*/)?\..*$
+  - ^(.*/)?.*\.json$
+  - ^(.*/)?.*\.md$
+  - ^(.*/)?.*\.yaml$
+  - ^LICENSE
