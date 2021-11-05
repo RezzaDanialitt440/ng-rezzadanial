@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionHomeComponent implements OnInit {
 
+  ageText: string;
   constructor() { }
 
   ngOnInit(): void {
+    let now = new Date();
+    let age = now.getFullYear() - 1995;
+    this.ageText = `${age} Years Old`;
+
   }
 
 }
