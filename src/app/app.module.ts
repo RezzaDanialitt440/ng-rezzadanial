@@ -16,6 +16,8 @@ import { SectionFooterComponent } from './main-card/section-footer/section-foote
 import { SectionReachComponent } from './main-card/section-reach/section-reach.component';
 import { SectionExperienceComponent } from './main-card/section-experience/section-experience.component';
 import { SectionSkillsetsComponent } from './main-card/section-skillsets/section-skillsets.component';
+import { WeddingComponent } from './wedding/wedding.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 
@@ -28,6 +30,8 @@ import { SectionSkillsetsComponent } from './main-card/section-skillsets/section
     SectionReachComponent,
     SectionExperienceComponent,
     SectionSkillsetsComponent,
+    WeddingComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
