@@ -1,0 +1,79 @@
+.main-card {
+  box-shadow: 3px 9px 61px;
+}
+
+.dp-section {
+  background-color: #fff;
+  background-image: url(../../../assets/img/couple.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center center;
+  object-fit: cover;
+}
+
+.dp-body {
+  background-color: #3f51b5;
+}
+
+.detail-section {
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  box-shadow: 1px 3px 10px;
+}
+
+@media screen and (max-width: 599px) {
+  .main-card {
+    box-shadow: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    text-align: center;
+}
+
+#invitation, #event-details {
+  .background {
+    background-position: 50%;
+    background: rgb(253, 244, 245);
+    background: linear-gradient(
+      0deg,
+      rgba(253, 244, 245, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(242, 191, 217, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .details {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .special-font {
+    font-family: "Yellowtail", cursive;
+    text-align: center;
+    margin: 0px;
+  }
+}

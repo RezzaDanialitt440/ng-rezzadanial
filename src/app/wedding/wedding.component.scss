@@ -1,0 +1,48 @@
+.container {
+    height: 100%;
+    background: rgb(253,244,245);
+    background: radial-gradient(circle, rgba(253,244,245,1) 0%, rgba(254,252,252,1) 0%, rgba(244,180,213,1) 100%);
+    // background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=3f51b5ff&noise=5279c7&density=100&opacity=29');
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: "hd hd hd"
+                         "pl body pr"
+                         "ft ft ft";
+  }
+
+.header {
+  grid-area: hd;
+}
+
+.pad-left {
+  grid-area: pl;
+}
+
+.body-section{
+  grid-area: body;
+  background-color: #fff;
+}
+
+.pad-right {
+  grid-area: pr;
+}
+
+.footer{
+  grid-area: ft;
+}
+
+  //for large mobile
+    @media screen and (max-width: 599px){
+      .container {
+        height: 100%;
+        background: rgb(253,244,245);
+        background: radial-gradient(circle, rgba(253,244,245,1) 0%, rgba(254,252,252,1) 0%, rgba(244,180,213,1) 100%);
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-rows: 0% 100% 0%;
+        grid-template-areas: "hd"
+                             "pl body pr"
+                             "ft";
+      }
+  }

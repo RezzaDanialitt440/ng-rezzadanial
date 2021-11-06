@@ -18,6 +18,7 @@ import { SectionExperienceComponent } from './main-card/section-experience/secti
 import { SectionSkillsetsComponent } from './main-card/section-skillsets/section-skillsets.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { LayoutComponent } from './layout/layout.component';
+import { WeddingCardComponent } from './wedding/wedding-card/wedding-card.component';
 
 
 
@@ -32,6 +33,7 @@ import { LayoutComponent } from './layout/layout.component';
     SectionSkillsetsComponent,
     WeddingComponent,
     LayoutComponent,
+    WeddingCardComponent,
   ],
   imports: [
     BrowserModule,
