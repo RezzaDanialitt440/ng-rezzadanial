@@ -4,7 +4,7 @@
 
 .dp-section {
   background-color: #fff;
-  background-image: url(../../../assets/img/couple.jpeg);
+  background-image: url(../../../assets/img/wedDesktopDp.png);
   background-repeat: no-repeat;
   background-size: cover;
   // background-position: center center;
@@ -34,6 +34,10 @@ img {
 @media screen and (max-width: 599px) {
   .main-card {
     box-shadow: none;
+  }
+
+  .dp-section {
+    background-image: url(../../../assets/img/wedMobileDp.png);
   }
 }
 
