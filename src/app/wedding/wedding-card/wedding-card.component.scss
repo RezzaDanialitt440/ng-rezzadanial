@@ -50,18 +50,13 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
 }
 
-#invitation, #event-details {
+#invitation, #event-details, #rsvp {
   .background {
     background-position: 50%;
-    background: rgb(253, 244, 245);
-    background: linear-gradient(
-      0deg,
-      rgba(253, 244, 245, 1) 0%,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(242, 191, 217, 1) 100%
-    );
     background-repeat: no-repeat;
     background-size: cover;
+    background: rgb(253,244,245);
+    // background: linear-gradient(0deg, rgba(253,244,245,1) 0%, rgba(255,255,255,1) 0%, rgba(242,235,234,1) 100%);
   }
 
   .details {
@@ -80,4 +75,10 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
     margin: 0px;
   }
+iframe {
+    height: 100vh;
+    width: 100%;
 }
+}
+
+
