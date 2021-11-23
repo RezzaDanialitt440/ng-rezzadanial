@@ -46,21 +46,30 @@ img {
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
 }
 
-#invitation, #event-details, #rsvp {
+#invitation,
+#event-details,
+#rsvp,
+#buy-me {
   .background {
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgb(253,244,245);
+    background: rgb(253, 244, 245);
     // background: linear-gradient(0deg, rgba(253,244,245,1) 0%, rgba(255,255,255,1) 0%, rgba(242,235,234,1) 100%);
   }
 
   .details {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -71,14 +80,69 @@ h1,h2,h3,h4,h5,h6,p{
   }
 
   .special-font {
-    font-family: "Yellowtail", cursive;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 0px;
   }
-iframe {
+  .main-font {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+  }
+  .directionBtn {
+    background-color: #FDF4F5;
+    border: solid 2px #F0BBA2;
+    color: #F0BBA2;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 10px
+;
+  }
+  
+  .directionBtn:hover {
+    background-color: #F0BBA2;
+    color: white;
+  }
+  iframe {
     height: 100vh;
     width: 100%;
-}
-}
+  }
 
+  .buy-me-btn-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 0px 15px;
+  }
 
+  .buyBtn {
+    background-color: #FDF4F5;
+    border: solid 2px #F0BBA2;
+    color: #F0BBA2;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 10px
+;
+  }
+  
+  .buyBtn:hover {
+    background-color: #F0BBA2;
+    color: white;
+  }
+
+  .buy-contianer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh
+;
+  }
+}
